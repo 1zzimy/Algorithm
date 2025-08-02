@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Java class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+out/
+target/
