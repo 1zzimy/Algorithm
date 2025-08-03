@@ -1,5 +1,7 @@
 # 🧠 알고리즘 문제 풀이 기록
 
+![백준](http://mazandi.herokuapp.com/api?handle=2zzimy&theme=dark)
+
 ---
 
 ## 📌 알고리즘 문제 플랫폼
