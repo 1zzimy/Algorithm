@@ -1,15 +1,35 @@
+
+<div align="center">
+  
 # 🧠 알고리즘 문제 풀이 기록
+  
+![백준](http://mazandi.herokuapp.com/api?handle=2zzimy&theme=warm)
+</div>
 
 ---
 
+
+
+<div align="center">
+
 ## 📌 알고리즘 문제 플랫폼
+
+  
 | 플랫폼                  | 설명             | 링크                                        |
 | -------------------- | -------------- |-------------------------------------------|
 | 백준 (Baekjoon)        | 단계별 문제 풀이      | [바로가기](https://www.acmicpc.net/step)      |
 | 프로그래머스 (Programmers) | 코딩테스트 실전 연습 중심 | [바로가기](https://school.programmers.co.kr/) |
 
+</div>
+
 ---
+
+<div align="center">
+  
 ## 🗂️ 폴더 구조
+
+</div>
+
 
 ```bash
 📦 algorithm
@@ -24,7 +44,10 @@
 │   └── level1
 │       └── P1_00000.java
 ```
+
 ---
+
+<div align="center">
 
 ## 📖 알고리즘 문제 풀이 현황
 
@@ -35,4 +58,5 @@
 | Step 1 | 입출력과 사칙연산 | ✅ 완료 (13/13)  | `백준_단계별/Step1_입출력과_사칙연산/` |
 | Step 2 | 조건문       | ✅ 완료 (7/7)    | `백준_단계별/Step2_조건문/`       |
 | Step 3 | 반복문       | ⏳ 진행 중 (4/12) | `백준_단계별/Step3_반복문/`       |
+
 
