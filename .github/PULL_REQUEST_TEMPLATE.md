@@ -10,7 +10,7 @@
 
 ### 🔍 문제 링크
 - [ ] 백준 : [문제번호 - 문제이름](https://www.acmicpc.net/problem/문제번호)
-- [ ] 프로그래머스_고득점 : [문제번호 - 문제이름](https://school.programmers.co.kr/learn/courses/30/lessons/문제번호)
+- [ ] 프로그래머스 : [문제번호 - 문제이름](https://school.programmers.co.kr/learn/courses/30/lessons/문제번호)
 
 ---
 
