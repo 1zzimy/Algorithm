@@ -13,9 +13,18 @@ public class P1_2745 {
 		br.close();
 
 		int cnt = 0;
+
+		// 내가 푼 방식
+		// for(int i = 0; i < N.length; i++) {
+		// 	if(N[i] >= '0' && N[i] <= '9') cnt += (int)(Math.pow(B, N.length-i-1) * (N[i] - '0'));
+		// 	else cnt += (int)(Math.pow(B, N.length-1-i) * (N[i] - 'A' + 10));
+		// }
+
+		// 좀 더 쉬운 방식
+		int digit;
 		for(int i = 0; i < N.length; i++) {
-			if(N[i] >= '0' && N[i] <= '9') cnt += (int)(Math.pow(B, N.length-i-1) * (N[i] - '0'));
-			else cnt += (int)(Math.pow(B, N.length-1-i) * (N[i] - 'A' + 10));
+			digit = (N[i] <= '9') ? (N[i] - '0') : (N[i] - 'A' + 10);
+			cnt = cnt * B + digit;
 		}
 
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
