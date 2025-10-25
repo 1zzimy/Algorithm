@@ -1,4 +1,4 @@
-package 프로그래머스_고득점.Type1_완전탐색;
+package 프로그래머스_고득점.Type1_해시;
 
 import java.util.HashMap;
 import java.util.Map;

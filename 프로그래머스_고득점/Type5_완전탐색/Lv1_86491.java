@@ -1,4 +1,4 @@
-package 프로그래머스_고득점.Type1_완전탐색;
+package 프로그래머스_고득점.Type5_완전탐색;
 
 public class Lv1_86491 {
 	public static void main(String[] args) {
