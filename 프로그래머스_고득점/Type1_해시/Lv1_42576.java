@@ -17,18 +17,15 @@ public class Lv1_42576 {
 class Solution {
 	public String solution(String[] participant, String[] completion) {
 		HashMap<String, Integer> hashMap = new HashMap<>();
-		String result = "";
-
 		for(String str : participant) hashMap.put(str, hashMap.getOrDefault(str, 0) + 1);
 		for(String str : completion) hashMap.put(str, hashMap.get(str) - 1);
 
 		// 모든 key, value 쌍을 반복하는 경우, keySet보다 entrySet이 더 효율적 !
 		for(Map.Entry<String, Integer> key : hashMap.entrySet()) {
 			if(key.getValue() != 0) {
-				result = key.getKey();
-				break;
+				return key.getKey();
 			}
 		}
-		return result;
+		return "";
 	}
 }
